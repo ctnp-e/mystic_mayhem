@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TEST_Player : MonoBehaviour
 {
-    public int max_health = 100;
+    [SerializeField] int max_health = 100;
     public static int current_health;
     public HealthBar healthBar;
     public DeathMenu deathMenu;
