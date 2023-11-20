@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour
         if (isBoss)
         {
             // switch scenes here...
-	    GameEnder.ender.SwitchToEnd();
+            Debug.Log("yeah");
         } 
         else
         {

@@ -963,50 +963,6 @@ Transform:
   - {fileID: 131810150}
   m_Father: {fileID: 495886155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &289945058
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 289945060}
-  - component: {fileID: 289945059}
-  m_Layer: 0
-  m_Name: GameEnder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &289945059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289945058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7906c9bbe47d4f94885317dde8751b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &289945060
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289945058}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 228.08867, y: 258.49374, z: -15.601957}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &307521276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,12 +1888,6 @@ MonoBehaviour:
   player_speed: 20
   animator: {fileID: 520359217}
   spriteRenderer: {fileID: 0}
-  dashTimer: 0
-  dashDistance: 0
-  ignoreRay:
-    serializedVersion: 2
-    m_Bits: 0
-  rayStartPoint: {fileID: 0}
 --- !u!58 &520359212
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1999,10 +1949,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hp: 10
-  MaxHp: 100
-  Xp: 0
-  MaxXp: 100
-  Level: 1
   startingSpell: {fileID: 3346097846772020503, guid: b679acdfcbe99499fa65662d97411af7, type: 3}
   spawnedSpells: []
   spellIndex: 0
@@ -7439,4 +7385,3 @@ SceneRoots:
   - {fileID: 1302201753}
   - {fileID: 1131438415}
   - {fileID: 1482631258}
-  - {fileID: 289945060}
